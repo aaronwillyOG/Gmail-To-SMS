@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *'  # optional: runs every day at 9 AM UTC
+    - cron: '*/15 * * * *'  # optional: runs every day at 9 AM UTC
   workflow_dispatch:     # optional: allows manual runs
 
 jobs:
