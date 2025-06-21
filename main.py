@@ -8,8 +8,8 @@ load_dotenv()
 
 
 # -------------------- CONFIGURATION --------------------
-EMAIL_USER = os.environ['EMAIL_USER']       # Your Gmail (e.g., you@gmail.com)
-EMAIL_PASS = os.environ['EMAIL_PASS']       # App Password (not your Gmail password)
+EMAIL_USER = os.environ['EMAIL_USER']       
+EMAIL_PASS = os.environ['EMAIL_PASS']       
 IMAP_SERVER = "imap.gmail.com"
 
 TWILIO_SID = os.environ['TWILIO_SID']
